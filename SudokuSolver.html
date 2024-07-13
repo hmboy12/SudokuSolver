@@ -6,88 +6,94 @@
     <link rel=stylesheet href="SudokuSolver.css">
 </head>
 <body>
-<div class="sudoku-container">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell " maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell top" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
-    <input type="text" class="sudoku-cell buttom" maxlength="1">
+<div class="SudokuSolver">
+    <div class="sudoku-container">
+        <input type="text" class="sudoku-cell top r0 c0 s0" maxlength="1" id="box0">
+        <input type="text" class="sudoku-cell top r0 c1 s0" maxlength="1" id="box1">
+        <input type="text" class="sudoku-cell top r0 c2 s0" maxlength="1" id="box2">
+        <input type="text" class="sudoku-cell top r0 c3 s1" maxlength="1" id="box3">
+        <input type="text" class="sudoku-cell top r0 c4 s1" maxlength="1" id="box4">
+        <input type="text" class="sudoku-cell top r0 c5 s1" maxlength="1" id="box5">
+        <input type="text" class="sudoku-cell top r0 c6 s2" maxlength="1" id="box6">
+        <input type="text" class="sudoku-cell top r0 c7 s2" maxlength="1" id="box7">
+        <input type="text" class="sudoku-cell top r0 c8 s2" maxlength="1" id="box8">
+        <input type="text" class="sudoku-cell r1 c0 s0" maxlength="1" id="box9">
+        <input type="text" class="sudoku-cell r1 c1 s0" maxlength="1" id="box10">
+        <input type="text" class="sudoku-cell r1 c2 s0" maxlength="1" id="box11">
+        <input type="text" class="sudoku-cell r1 c3 s1" maxlength="1" id="box12">
+        <input type="text" class="sudoku-cell r1 c4 s1" maxlength="1" id="box13">
+        <input type="text" class="sudoku-cell r1 c5 s1" maxlength="1" id="box14">
+        <input type="text" class="sudoku-cell r1 c6 s2" maxlength="1" id="box15">
+        <input type="text" class="sudoku-cell r1 c7 s2" maxlength="1" id="box16">
+        <input type="text" class="sudoku-cell r1 c8 s2" maxlength="1" id="box17">
+        <input type="text" class="sudoku-cell r2 c0 s0" maxlength="1" id="box18">
+        <input type="text" class="sudoku-cell r2 c1 s0" maxlength="1" id="box19">
+        <input type="text" class="sudoku-cell r2 c2 s0" maxlength="1" id="box20">
+        <input type="text" class="sudoku-cell r2 c3 s1" maxlength="1" id="box21">
+        <input type="text" class="sudoku-cell r2 c4 s1" maxlength="1" id="box22">
+        <input type="text" class="sudoku-cell r2 c5 s1" maxlength="1" id="box23">
+        <input type="text" class="sudoku-cell r2 c6 s2" maxlength="1" id="box24">
+        <input type="text" class="sudoku-cell r2 c7 s2" maxlength="1" id="box25">
+        <input type="text" class="sudoku-cell r2 c8 s2" maxlength="1" id="box26">
+        <input type="text" class="sudoku-cell top r3 c0 s3" maxlength="1" id="box27">
+        <input type="text" class="sudoku-cell top r3 c1 s3" maxlength="1" id="box28">
+        <input type="text" class="sudoku-cell top r3 c2 s3" maxlength="1" id="box29">
+        <input type="text" class="sudoku-cell top r3 c3 s4" maxlength="1" id="box30">
+        <input type="text" class="sudoku-cell top r3 c4 s4" maxlength="1" id="box31">
+        <input type="text" class="sudoku-cell top r3 c5 s4" maxlength="1" id="box32">
+        <input type="text" class="sudoku-cell top r3 c6 s5" maxlength="1" id="box33">
+        <input type="text" class="sudoku-cell top r3 c7 s5" maxlength="1" id="box34">
+        <input type="text" class="sudoku-cell top r3 c8 s5" maxlength="1" id="box35">
+        <input type="text" class="sudoku-cell r4 c0 s3" maxlength="1" id="box36">
+        <input type="text" class="sudoku-cell r4 c1 s3" maxlength="1" id="box37">
+        <input type="text" class="sudoku-cell r4 c2 s3" maxlength="1" id="box38">
+        <input type="text" class="sudoku-cell r4 c3 s4" maxlength="1" id="box39">
+        <input type="text" class="sudoku-cell r4 c4 s4" maxlength="1" id="box40">
+        <input type="text" class="sudoku-cell r4 c5 s4" maxlength="1" id="box41">
+        <input type="text" class="sudoku-cell r4 c6 s5" maxlength="1" id="box42">
+        <input type="text" class="sudoku-cell r4 c7 s5" maxlength="1" id="box43">
+        <input type="text" class="sudoku-cell r4 c8 s5" maxlength="1" id="box44">
+        <input type="text" class="sudoku-cell r5 c0 s3" maxlength="1" id="box45">
+        <input type="text" class="sudoku-cell r5 c1 s3" maxlength="1" id="box46">
+        <input type="text" class="sudoku-cell r5 c2 s3" maxlength="1" id="box47">
+        <input type="text" class="sudoku-cell r5 c3 s4" maxlength="1" id="box48">
+        <input type="text" class="sudoku-cell r5 c4 s4" maxlength="1" id="box49">
+        <input type="text" class="sudoku-cell r5 c5 s4" maxlength="1" id="box50">
+        <input type="text" class="sudoku-cell r5 c6 s5" maxlength="1" id="box51">
+        <input type="text" class="sudoku-cell r5 c7 s5" maxlength="1" id="box52">
+        <input type="text" class="sudoku-cell r5 c8 s5" maxlength="1" id="box53">
+        <input type="text" class="sudoku-cell top r6 c0 s6" maxlength="1" id="box54">
+        <input type="text" class="sudoku-cell top r6 c1 s6" maxlength="1" id="box55">
+        <input type="text" class="sudoku-cell top r6 c2 s6" maxlength="1" id="box56">
+        <input type="text" class="sudoku-cell top r6 c3 s7" maxlength="1" id="box57">
+        <input type="text" class="sudoku-cell top r6 c4 s7" maxlength="1" id="box58">
+        <input type="text" class="sudoku-cell top r6 c5 s7" maxlength="1" id="box59">
+        <input type="text" class="sudoku-cell top r6 c6 s8" maxlength="1" id="box60">
+        <input type="text" class="sudoku-cell top r6 c7 s8" maxlength="1" id="box61">
+        <input type="text" class="sudoku-cell top r6 c8 s8" maxlength="1" id="box62">
+        <input type="text" class="sudoku-cell r7 c0 s6" maxlength="1" id="box63">
+        <input type="text" class="sudoku-cell r7 c1 s6" maxlength="1" id="box64">
+        <input type="text" class="sudoku-cell r7 c2 s6" maxlength="1" id="box65">
+        <input type="text" class="sudoku-cell r7 c3 s7" maxlength="1" id="box66">
+        <input type="text" class="sudoku-cell r7 c4 s7" maxlength="1" id="box67">
+        <input type="text" class="sudoku-cell r7 c5 s7" maxlength="1" id="box68">
+        <input type="text" class="sudoku-cell r7 c6 s8" maxlength="1" id="box69">
+        <input type="text" class="sudoku-cell r7 c7 s8" maxlength="1" id="box70">
+        <input type="text" class="sudoku-cell r7 c8 s8" maxlength="1" id="box71">
+        <input type="text" class="sudoku-cell buttom r8 c0 s6" maxlength="1" id="box72">
+        <input type="text" class="sudoku-cell buttom r8 c1 s6" maxlength="1" id="box73">
+        <input type="text" class="sudoku-cell buttom r8 c2 s6" maxlength="1" id="box74">
+        <input type="text" class="sudoku-cell buttom r8 c3 s7" maxlength="1" id="box75">
+        <input type="text" class="sudoku-cell buttom r8 c4 s7" maxlength="1" id="box76">
+        <input type="text" class="sudoku-cell buttom r8 c5 s7" maxlength="1" id="box77">
+        <input type="text" class="sudoku-cell buttom r8 c6 s8" maxlength="1" id="box78">
+        <input type="text" class="sudoku-cell buttom r8 c7 s8" maxlength="1" id="box79">
+        <input type="text" class="sudoku-cell buttom r8 c8 s8" maxlength="1" id="box80">
+    </div>
+    <div class="SolveButtonDiv  ">
+        <button class="SolveButton" id="SolveButton"> Solve </button>
+    </div>
 </div>
+<script src="SudokuSolver.js"></script>
 </body>
 </html>
